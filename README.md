@@ -5,6 +5,12 @@ This project implements a MultiLevel Cache simulator to simulate a two level cac
 1. Shivam Aggarwal (shivama20@iitk.ac.in)
 2. Boppana Tej Kiran (tejkiranb20@iitk.ac.in)
 
+## Trace files
+All six trace files can be downloaded from the following link.
+[Trace Files](https://drive.google.com/drive/folders/1Szyoko_8aT7fjW1OLVJ0ISyJ8weoHT7l?usp=sharing)
+After downloading a trace file, place it inside the directory named 'traces'. Place this trace directory also in the same directory, as Cache.py and simulator.py
+
+
 ## Working
 First we needed to convert the binary files into a suitable format. So we converted these traces into text files which only contains the address of misses from L1 cache. Cache is implemented in  cache.py file. We can implement one of the three policies between caches, i.e. Inclusive, Exclusive and Nine. The simulator is implemented in simulator.py file. If you want to run the simulator on a file with all three policies then use the run.sh script.
 
